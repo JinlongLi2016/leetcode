@@ -1,0 +1,922 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"bgc",
+				"background-color\tproperty"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"precision",
+				"precision_score"
+			],
+			[
+				"me",
+				"momentum"
+			],
+			[
+				"feature",
+				"feature4_2"
+			],
+			[
+				"image_pat",
+				"image_path"
+			],
+			[
+				"image_pa",
+				"image_path2"
+			],
+			[
+				"fea",
+				"feature4_2"
+			],
+			[
+				"dwn",
+				"dwn1_1"
+			],
+			[
+				"feau",
+				"feature4_0"
+			],
+			[
+				"kerne",
+				"kernel_size"
+			],
+			[
+				"sla",
+				"slack_mask3"
+			],
+			[
+				"sl",
+				"slack_mask1"
+			],
+			[
+				"featu",
+				"feature4_2"
+			],
+			[
+				"feat",
+				"feature4_1"
+			],
+			[
+				"trnas",
+				"transforms"
+			],
+			[
+				"transof",
+				"transforms"
+			],
+			[
+				"saved",
+				"saved_path"
+			],
+			[
+				"replace",
+				"replace_bn"
+			],
+			[
+				"im",
+				"imgs"
+			],
+			[
+				"qim",
+				"qimg_idx"
+			],
+			[
+				"Images",
+				"ImageListRelevantsBottle"
+			],
+			[
+				"qimg",
+				"qimg_idx"
+			],
+			[
+				"rela",
+				"relevants"
+			],
+			[
+				"list",
+				"listed_data"
+			],
+			[
+				"base",
+				"basenet"
+			],
+			[
+				"with",
+				"without_fc"
+			],
+			[
+				"create",
+				"create_model"
+			],
+			[
+				"from",
+				"from_numpy"
+			],
+			[
+				"out",
+				"out_dim"
+			],
+			[
+				"str",
+				"strict"
+			],
+			[
+				"random",
+				"random_idx"
+			],
+			[
+				"rpn_bb",
+				"rpn_bbox_loss"
+			],
+			[
+				"input_rpn",
+				"input_rpn_bbox"
+			],
+			[
+				"input_image",
+				"input_image_meta"
+			],
+			[
+				"most",
+				"most_element"
+			],
+			[
+				"step",
+				"step_num"
+			],
+			[
+				"max",
+				"maxflag"
+			],
+			[
+				"maxRe",
+				"MaxRectangleInHist"
+			],
+			[
+				"po",
+				"max_point"
+			],
+			[
+				"div",
+				"divide2"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"word",
+				"words"
+			],
+			[
+				"wrod",
+				"word_len"
+			],
+			[
+				"mid",
+				"middle"
+			],
+			[
+				"inter",
+				"intervals"
+			],
+			[
+				"interva",
+				"interval"
+			],
+			[
+				"cur_str",
+				"cur_strs"
+			],
+			[
+				"cur",
+				"cur_distance"
+			],
+			[
+				"can",
+				"candidate2"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"pri",
+				"primes"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"json",
+				"jsonfile"
+			],
+			[
+				"_ge",
+				"_get_proper_rois"
+			],
+			[
+				"_g",
+				"_get_shot_image"
+			],
+			[
+				"Not",
+				"NotImplementedError〔class〕"
+			],
+			[
+				"new_patch",
+				"new_patches〔variable〕"
+			],
+			[
+				"pre",
+				"preprocess_images〔function〕"
+			],
+			[
+				"Mob",
+				"MobileNetV2_ImageNet〔class〕"
+			],
+			[
+				"mb",
+				"mbv2_preprocess_input〔module〕"
+			],
+			[
+				"preprocess",
+				"preprocess_input"
+			],
+			[
+				"mob",
+				"mobilenetv2〔module〕"
+			],
+			[
+				"Mobl",
+				"MobileNetV2_ImageNet〔class〕"
+			],
+			[
+				"preproce",
+				"preprocess_input〔module〕"
+			],
+			[
+				"keras",
+				"keras_model"
+			],
+			[
+				"moled",
+				"molded_images"
+			],
+			[
+				"detection",
+				"detections"
+			],
+			[
+				"weight",
+				"weight_path〔argument〕"
+			],
+			[
+				"seg",
+				"seg_filename〔variable〕"
+			],
+			[
+				"segmen",
+				"segmentation_format"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"200",
+				"2007_000032_raw.png"
+			],
+			[
+				"wei",
+				"weights_path"
+			],
+			[
+				"origin",
+				"origin_shape"
+			],
+			[
+				"rot_imgs",
+				"rot_imgs_4"
+			],
+			[
+				"to",
+				"to_categorical"
+			],
+			[
+				"large",
+				"large_label"
+			],
+			[
+				"load",
+				"load_model"
+			],
+			[
+				"lo",
+				"load"
+			],
+			[
+				"calibra",
+				"calibration_func"
+			],
+			[
+				"Model",
+				"ModelCheckpoint"
+			],
+			[
+				"aug_val_fea",
+				"aug_val_fea_list"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"calfea",
+				"cal_fea_list"
+			],
+			[
+				"edge",
+				"edges_labels"
+			],
+			[
+				"edges",
+				"edges_arr"
+			],
+			[
+				"_ra",
+				"_random_flip_leftright"
+			],
+			[
+				"batch",
+				"batch_features"
+			],
+			[
+				"traing",
+				"training_labels"
+			],
+			[
+				"train",
+				"training_features"
+			],
+			[
+				"features",
+				"features_list"
+			],
+			[
+				"model_nam",
+				"model_name2"
+			],
+			[
+				"test_im",
+				"test_images_list"
+			],
+			[
+				"test",
+				"test_images_list"
+			],
+			[
+				"raw",
+				"raw_features_list"
+			],
+			[
+				"SGD",
+				"sgd"
+			],
+			[
+				"LR",
+				"lr"
+			],
+			[
+				"De",
+				"DepthwiseConv2D"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "2.1.5.py",
+			"settings":
+			{
+				"buffer_size": 1846,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2.1.8threesome.py",
+			"settings":
+			{
+				"buffer_size": 562,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Scala.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Scala.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"PACKAGE CON",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 463.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib."
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/23132/OneDrive/Documents/leetcode_pdf"
+	],
+	"file_history":
+	[
+		"/C/Users/23132/OneDrive/Documents/leetcode_pdf/2.1.12下一个排列.py",
+		"/C/Users/23132/OneDrive/Projects/empolycoding/.git/MERGE_MSG",
+		"/C/Users/23132/OneDrive/Documents/leetcode_pdf/FRAUD_FINANCE.PY",
+		"/C/Users/23132/OneDrive/Documents/leetcode_pdf/13.4.md",
+		"/C/Users/23132/OneDrive/Documents/AlgorithmsDesignTechniquesandAnalysis/ch16_networkflow/maxflow_algorithm.py",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/.git/refs/remotes/origin/gh-pages",
+		"/D/mydoc/crawler/Range4/RangeType.txt",
+		"/D/mydoc/moocdownloader/config.json",
+		"/D/mydoc/moocdownloader/mooc-dl.py",
+		"/C/Users/23132/OneDrive/Courses/网络课程/经济学人/20210130/voc.txt",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/.nojekyll",
+		"/C/Users/23132/OneDrive/Documents/AlgorithmsDesignTechniquesandAnalysis/git",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/index.html",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/reference/GatherResourceContent.py",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/program/React-refactor.md",
+		"/C/Users/23132/OneDrive/RMI/RMI.py",
+		"/D/sawdel.scala",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/User/Scala.sublime-build",
+		"/C/Program Files/Sublime Text 3/Packages/Scala.sublime-package",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/20201127_bebogged.md",
+		"/D/mydoc/projects/mywebsite/sftp-config.json",
+		"/D/mydoc/projects/mywebsite/docs/README.md",
+		"/D/mydoc/projects/mywebsite/docs/index.html",
+		"/D/mydoc/projects/my-app-react/index.css",
+		"/D/mydoc/projects/my-app-react/logo.svg",
+		"/D/mydoc/projects/my-app-react/App.css",
+		"/D/mydoc/projects/my-app-react/HomePage.css",
+		"/D/mydoc/projects/my-app-react/sftp-config.json",
+		"/D/mydoc/projects/my-app-react/setupTests.js",
+		"/C/Users/23132/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
+		"/D/mydoc/projects/text-detection-ctpn/README.md",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/D/mydoc/projects/my-app-react/HomePage.jsx",
+		"/D/mydoc/projects/my-app-react/homepage.js",
+		"/D/mydoc/projects/my-app-react/app.js",
+		"/D/mydoc/projects/my-app-react/HomePage.less",
+		"/D/mydoc/projects/my-app-react/test.py",
+		"/D/mydoc/projects/my-app-react/App.js",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/tencent1",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/MySFTP/sshpass.py",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/MySFTP/MySFTP.py",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/User/mysftpremote.json",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/MySFTP/Side Bar.sublime-menu",
+		"/C/tmp_my_sftp/folder",
+		"/C/tmp_my_sftp/手动阀手动阀",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/C/Users/23132/OneDrive/Projects/jlli_local/db.json",
+		"/C/Users/23132/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/C/Users/23132/OneDrive/Composition-Pyramid/sftp-config.json",
+		"/C/users/23132/appdata/local/temp/sublime-sftp-browse-1605271052/tencent/home/jlli/sftpfiles/utils/hello.py",
+		"/C/Users/23132/OneDrive/Composition-Pyramid/.gitignore",
+		"/C/Users/23132/OneDrive/Projects/jlli_local/sftp-config.json",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/20201106_DQReportPage.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/_sidebar.md",
+		"/C/Users/23132/OneDrive/Courses/网络课程/Work Smarter Not Harder/W4 Summary Up/subtitle.txt",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/funny/_sidebar.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/20201023_MultiProgLanguage.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/.git/COMMIT_EDITMSG",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/20200918_FontViewerRedux.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/funny/BarnumEffect.md",
+		"/C/Users/23132/OneDrive/Courses/网络课程/learningtolearn/W4/Renaissance Learning and Unlocking Ur Potential I/dividedd.py",
+		"/C/Users/23132/OneDrive/Courses/网络课程/learningtolearn/W3 Mental tools to help you master tough subjects/2 Memory/dividedd.py",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/20200925_FontViewerOnline.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/.git/index",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/program/simple-sql-tutorial-Oracle.md",
+		"/C/Users/23132/Desktop/test_harrdetector.py",
+		"/C/Users/23132/Desktop/tmp.py",
+		"/C/Users/23132/Desktop/test2.py",
+		"/C/Users/23132/Desktop/test_test.py",
+		"/C/Users/23132/Desktop/考公数学.py",
+		"/D/mysql-8.0.16-winx64/data/public_key.pem",
+		"/D/Algorithms-master/sawdel.scala",
+		"/C/Users/23132/Downloads/git-prompt.sh",
+		"/C/Users/23132/Desktop/postionfixed.html",
+		"/C/Users/23132/Desktop/test3.py",
+		"/C/Users/23132/Desktop/test.py",
+		"/C/Users/23132/Desktop/positionsticky.html",
+		"/D/mydoc/103976-master/run.py",
+		"/D/mydoc/103976-master/EnWords.csv",
+		"/C/Users/23132/Desktop/Exception in thread \"main\" java.lang.IllegalArgumentException",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/resources/GatherResourceContent.py",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/sawdel.txt",
+		"/C/Users/23132/Downloads/git-completion.bash",
+		"/C/Users/23132/Desktop/postiontest.html",
+		"/C/Users/23132/Desktop/testhtml/index.html",
+		"/C/Users/23132/Desktop/testhtml/tmp.js",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/methodology/blooms_taxonomy_200904.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/_sidebar.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/LearnTensorFlow/myml/docs/tfcertificate/_sidebar.md",
+		"/C/Users/23132/Desktop/04.会员版(2.0)-就业课(2.0)-继承与多态/10.【接口、多态】/02_代码/day10-code.zip",
+		"/C/Users/23132/OneDrive/Documents/Docs/docsify-docs/CaptainWeekly/docs/Weekly/README.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/LearnTensorFlow/myml/docs/_sidebar.md",
+		"/C/Users/23132/OneDrive/Documents/Docs/LearnTensorFlow/myml/docs/index.html",
+		"/C/Users/23132/Desktop/sawdel.py",
+		"/C/Users/23132/Desktop/sawdel2.py",
+		"/C/Users/23132/.ssh/id_rsa.pub",
+		"/C/Users/23132/OneDrive/Documents/Docs/LearnTensorFlow/myml/docs/guide.md",
+		"/C/Users/23132/Desktop/“transformer_ipynb”的副本.py",
+		"/C/Users/23132/OneDrive/Documents/TF证书/官网文档/TFC_tfrecord.py",
+		"/C/Users/23132/OneDrive/Documents/TF证书/官网文档/01quickstart.py",
+		"/C/Users/23132/OneDrive/Documents/Docs/投资备忘录/codes/TMP.py",
+		"/C/Users/23132/OneDrive/Projects/jlli_local/_config.yml",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/themes/landscape/_config.yml",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/.travis.yml",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/db.json",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/package-lock.json",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/package.json",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/_config.yml",
+		"/C/Users/23132/OneDrive/Documents/TF证书/官网文档/TF_RoadMap.md",
+		"/C/Users/23132/OneDrive/Documents/TF证书/官网文档/firstcourse.py",
+		"/C/Users/23132/OneDrive/Documents/Docs/LearnTensorFlow/TensorFlowReflection/LICENSE",
+		"/C/Users/23132/OneDrive/Documents/TF证书/官网文档/advanced.py",
+		"/C/Users/23132/OneDrive/Projects/hexo-theme-landscape/.git/MERGE_MSG",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/public/.travis.yml",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/.gitignore",
+		"/C/Users/23132/OneDrive/Documents/learncpp/3.5ConstructorDestructor.cpp",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/source/_posts/testmainpage.md",
+		"/D/mydoc/projects/blog/themes/landscape/README.md",
+		"/C/Users/23132/OneDrive/Projects/jinlongli_website/themes/concise/_config.yml",
+		"/C/Users/23132/OneDrive/Courses/网络课程/CPP-翁恺-网易云课堂/SourceCodes/CopyConstruction.cpp",
+		"/C/Users/23132/OneDrive/Documents/GitHubRepos/HBPASM/data/data - 副本.py",
+		"/C/Users/23132/OneDrive/Documents/GitHubRepos/HBPASM/model/HBPASM_model - 副本.py",
+		"/C/Users/23132/OneDrive/Documents/GitHubRepos/HBPASM/path_store - 副本.py",
+		"/D/mydoc/projects/text-detection-ctpn/main/demo.py",
+		"/C/Users/23132/OneDrive/Documents/GitHubRepos/HBPASM/path_store.py",
+		"/C/Users/23132/OneDrive/Documents/GitHubRepos/HBPASM/model/HBPASM_model.py",
+		"/D/mydoc/projects/CHINESE-OCR/setup.sh",
+		"/D/mydoc/projects/CHINESE-OCR/demo.py"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 160.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\23132\\OneDrive\\Documents\\leetcode_pdf"
+		},
+		{
+			"path": "C:\\Users\\23132\\OneDrive\\Documents\\killoffer"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "2.1.5.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1265,
+								1265
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2.1.8threesome.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 138.0
+	},
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.progess_bar":
+	{
+		"height": 138.0
+	},
+	"output.sftp":
+	{
+		"height": 34.4
+	},
+	"output.unsaved_changes":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
