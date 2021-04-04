@@ -1,6 +1,6 @@
 
 def all_gray_codes(n):
-	lst = [None] * n 
+	lst = [None] * n
 	procede(0, lst)
 
 def procede(i, lst):
@@ -8,7 +8,7 @@ def procede(i, lst):
 		print(lst)
 	else:
 		for p in [0, 1]:
-			lst[i] = p 
+			lst[i] = p
 			procede(i+1, lst)
 		lst[i] = None
 

@@ -12,7 +12,7 @@ def split(A, st, end):
 		j += 1
 
 	A[i], A[st] = A[st], A[i]
-	return i 
+	return i
 
 def topk_1(lst, k):
 	start, end = 0, len(lst) - 1

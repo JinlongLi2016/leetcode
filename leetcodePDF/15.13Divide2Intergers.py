@@ -7,8 +7,8 @@ def divide2(dividend, divisor):
 		# 把 c 每次增加一倍
 		i = 0
 		while dividend >= c:
-			dividend -= c 
-			r += 1 << i 
+			dividend -= c
+			r += 1 << i
 			c = c << 1
 
 			i += 1

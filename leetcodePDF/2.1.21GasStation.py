@@ -8,11 +8,11 @@ class Solution:
         	Sum += gas[i] - cost[i]
         	if Sum < 0:
         		Sum = 0
-        		start = i 
+        		start = i
         	total += gas[i] - cost[i]
         	i += 1
         return start + 1 if total >= 0 else -1
-        
+
 
 
 s = Solution()

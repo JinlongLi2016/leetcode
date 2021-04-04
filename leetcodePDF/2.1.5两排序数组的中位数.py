@@ -19,7 +19,7 @@
 #         if total % 2 != 0:
 #             return helper(nums1, l1, nums2, l2, total // 2 + 1)
 #         else:
-#             return (helper(nums1, l1, nums2, l2, total//2) 
+#             return (helper(nums1, l1, nums2, l2, total//2)
 #                    + helper(nums1, l1, nums2, l2, total//2 + 1) )/ 2.
 
 
@@ -47,7 +47,7 @@ class Solution:
         if total % 2 != 0:
             return helper(nums1, l1, nums2, l2, total // 2 + 1)
         else:
-            return (helper(nums1, l1, nums2, l2, total//2) 
+            return (helper(nums1, l1, nums2, l2, total//2)
                    + helper(nums1, l1, nums2, l2, total//2 + 1) )/ 2.
 
 

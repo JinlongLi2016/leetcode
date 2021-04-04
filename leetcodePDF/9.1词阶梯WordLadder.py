@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/word-ladder/discuss/296765/BFS-using-Python-3
-from collections import namedtuple, deque 
+from collections import namedtuple, deque
 
 def solution(beginWord, endWord, wordList):
 	StringWithDistance = namedtuple('StringWithDistance', ['str_cond', 'disntance'])
@@ -50,7 +50,7 @@ def wordladder2(beginWord, endWord, wordList):
 						candidate_previous[adj_str].append(adj_str)
 
 						# q.append(StringWithDistance(cur_str, adj_str, cur_distance+1))
-			# 迭代完成之后把 potential_cand里面的东西 
+			# 迭代完成之后把 potential_cand里面的东西
 			for k, v in candidate_previous.items():
 				if v:
 					q.append(StringWithDistance(v, k, cur_distance+1))

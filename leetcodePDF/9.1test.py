@@ -1,4 +1,4 @@
-from collections import namedtuple, deque 
+from collections import namedtuple, deque
 
 
 def reachable_(aword, bword):
@@ -19,7 +19,7 @@ class Solution:
         potentials = wordList + [endWord]
         start = beginWord
         end = endWord
-        
+
         wordlize = namedtuple('wordlize', ['word', 'length'])
 
 
@@ -27,7 +27,7 @@ class Solution:
         st = wordlize(start, 1)
 
         Q.append(st)
-        
+
         while len(Q) > 0:
             tmp= Q.popleft()
             if tmp.word == end:

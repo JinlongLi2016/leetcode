@@ -8,12 +8,12 @@ def create_link(lst):
     nodes = [ListNode(e) for e in lst]
     for i in range(len(nodes) - 1):
         nodes[i].next = nodes[i+1]
-    return nodes[0]    
+    return nodes[0]
 def output_link(link):
     while link:
         print(link.val, end = '->')
         link = link.next
-# the same as split in squick sort() 
+# the same as split in squick sort()
 
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode:
@@ -21,7 +21,7 @@ class Solution:
         p.next = head
         q = head
         qprev = p
-        
+
         while q:
             if q.val < x:
                 # p = p.next
@@ -29,18 +29,18 @@ class Solution:
                     qprev.next = q.next
                     q.next = p.next
                     p.next = q
-                    
+
                     p = p.next
-                    
+
                     q = qprev.next
                 else:
                     p = p.next
-                    q = q.next 
+                    q = q.next
                     qprev = qprev.next
             else:
                 q = q.next
                 qprev = qprev.next
-                    
+
         return st.next
 
 s = Solution()

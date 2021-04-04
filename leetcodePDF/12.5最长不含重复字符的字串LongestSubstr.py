@@ -5,12 +5,12 @@ from collections import defaultdict
 d = defaultdict(int)
 
 # initial state
-l = 0 
+l = 0
 d[s[0]] = 1
 max_len = 0
 
 
-# 
+#
 for i, c in enumerate(s[1:], start = 1):
 	if d[c] <= 0:	# 如果字符没有出现，就记录这个字符再往后移一位
 		d[c] = 1

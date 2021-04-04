@@ -6,7 +6,7 @@ prices_sequence = [0, 1, 2, 3, 4, -5, -6, 8, -2]
 def profit(prices_sequence):
 	if len(prices_sequence)<2:
 		return 0
-	# 边界条件判断错误	
+	# 边界条件判断错误
 	# if len(prices_sequence)<=2:
 	# 	d = prices_sequence[1] - prices_sequence[0]
 	# 	return d if d > 0 else 0

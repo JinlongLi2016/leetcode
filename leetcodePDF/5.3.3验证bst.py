@@ -1,6 +1,6 @@
 
 # 非递归中序遍历
-# 时空复杂度均为O(n) 
+# 时空复杂度均为O(n)
 def inorder_traversal(T):
 	st = []
 	last = float('-inf')
@@ -11,7 +11,7 @@ def inorder_traversal(T):
 		T = st.pop()
 		if T.val < last.val:
 			return False
-		last = T 
+		last = T
 		T = T.right
 	return True
 

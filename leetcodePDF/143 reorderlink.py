@@ -9,7 +9,7 @@ def create_link(lst):
     nodes = [ListNode(e) for e in lst]
     for i in range(len(nodes) - 1):
         nodes[i].next = nodes[i+1]
-    return nodes[0] 
+    return nodes[0]
 def output_link(link):
     while link:
         print(link.val, end = '->')
@@ -24,7 +24,7 @@ def reverselink(l):
         lNext = l.next
         l.next = tmp.next
         tmp.next = l
-        
+
         l = lNext
     return tmp.next
 
@@ -33,13 +33,13 @@ def merge(l1, l2):
     while l1 and l2:
         l1Next = l1.next
         l2Next = l2.next
-        
+
         p.next = l1
         p = p.next
         p.next = l2
         p = p.next
-        
-        l1 = l1Next 
+
+        l1 = l1Next
         l2 = l2Next
     while l1:
         p.next = l1
@@ -47,7 +47,7 @@ def merge(l1, l2):
         p.next = l2
     return tmp.next
 
-        
+
 class Solution(object):
     def reorderList(self, head):
         """
@@ -60,12 +60,12 @@ class Solution(object):
         while p:
             p1.next = p
             p1 = p1.next
-            
+
             p = p.next
-            
+
             p2.next = p
             p2 = p2.next
-            
+
             if p:
                 p = p.next
         p1.next = None

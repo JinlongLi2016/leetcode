@@ -1,5 +1,5 @@
 n, m = [int(i) for i in input().strip().split(' ')]
-i = 0 
+i = 0
 p = []
 while i < n:
     line = input().strip().split(' ')
