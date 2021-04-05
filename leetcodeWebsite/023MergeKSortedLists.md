@@ -1,5 +1,6 @@
 # Merge K sorted Lists
 
+```python
 import heapq
 def merge(lists):
 	heap = [(e.val, e) for e in lists]
@@ -16,3 +17,4 @@ def merge(lists):
 		if last.next is not None:
 			heapq.heappush(heap, (last.next.val, last.next))
 	return head.next
+```
