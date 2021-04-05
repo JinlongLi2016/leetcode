@@ -8,8 +8,9 @@ class Solution:
     			wordSet.remove(s[i])
     			i += 1
     		wordSet.add(s[j])
+    		maxLen = max(maxLen, len(s))
     		j += 1
-    		maxLen = max(0, len(s))
+
     	return maxLen
 
 # 时间复杂度 O(n) 空间复杂度 O(wordset)
