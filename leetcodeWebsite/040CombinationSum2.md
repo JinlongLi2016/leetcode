@@ -1,4 +1,6 @@
+# 046 组合和
 
+* My Solution
 
 
 ```python
@@ -87,7 +89,7 @@ Output
 Expected
 [[1,1,6],[1,2,5],[1,7],[2,6]]
 ```
-这里candidates不能够作为衡量进度的标尺，而应该以candidates的set
+**这里candidates不能够作为衡量进度的标尺，而应该以candidates的set**
 
 * My Final Solution 
 ```python
