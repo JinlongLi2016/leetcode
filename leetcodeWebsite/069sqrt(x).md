@@ -10,12 +10,12 @@ Since the return type is an integer, the decimal digits are **truncated**, and o
 class Solution:
     def mySqrt(self, x: int) -> int:
         l, r = 1, x
-        while not (l * l <= x and (l+1) * (l+1) > x):
+        while not (l * l <= x and (l+1) * (l+1) > x): # l is not what I want
             m = (l + r) // 2
             if m * m <= x:
-                l = (l + r) // 2
+                l = m
             else:
-                r = (l + r) // 2
+                r = m
         return l
 
 ```

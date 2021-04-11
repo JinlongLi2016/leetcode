@@ -1,4 +1,4 @@
-# 063 Unique Paths
+# 063 Unique PathsⅡ
 
 ```python
 class Solution:
@@ -13,7 +13,7 @@ class Solution:
                 if obstacleGrid[i][j]:
                     state[j] = 0
                 elif j == 0:
-                    continue
+                    continue # state[j] = state[j]
                 elif i == 0:
                     state[j] = state[j-1]
                 else:
