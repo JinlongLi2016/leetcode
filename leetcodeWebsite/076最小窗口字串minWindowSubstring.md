@@ -68,7 +68,7 @@ def minWindow(self, s, t):
     for j, c in enumerate(s, 1):
         missing -= need[c] > 0
         need[c] -= 1
-        if not missing:
+        if not missing: # missing == 0
             while i < j and need[s[i]] < 0:
                 need[s[i]] += 1
                 i += 1
