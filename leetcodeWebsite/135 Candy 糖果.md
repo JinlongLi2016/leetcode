@@ -1,0 +1,37 @@
+# 135 Candy 糖果
+
+There are `n` children standing in a line. Each child is assigned a rating value given in the integer array `ratings`.
+
+You are giving candies to these children subjected to the following requirements:
+
+- Each child must have at least one candy.
+- Children with a higher rating get more candies than their neighbors.
+
+Return *the minimum number of candies you need to have to distribute the candies to the children*.
+
+
+
+* mine
+
+```python
+def des_list(ratings):
+    des = [ratings[i] > ratings[i+1] for i in range(len(ratings) - 1)] + [0]
+    des = des[::-1]
+    acc = 0
+    for idx, d in enumerate(des):
+        if d:
+            acc += 1
+        else:
+            acc = 0
+        des[idx] = acc
+    return des[::-1]
+class Solution:
+    def candy(self, ratings: List[int]) -> int:
+        l2r = des_list(ratings)
+        r2l = des_list(ratings[::-1])[::-1]
+        ass = [0] * len(ratings)
+        for idx, r in enumerate(ratings):
+            ass[idx] = max(l2r[idx], r2l[idx]) + 1
+        return sum(ass)
+```
+
