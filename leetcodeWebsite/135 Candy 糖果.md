@@ -14,7 +14,7 @@ Return *the minimum number of candies you need to have to distribute the candies
 * mine
 
 ```python
-def des_list(ratings):
+def des_list(ratings): # 每一个位置存储该位置向右连续下降序列的长度
     des = [ratings[i] > ratings[i+1] for i in range(len(ratings) - 1)] + [0]
     des = des[::-1]
     acc = 0
