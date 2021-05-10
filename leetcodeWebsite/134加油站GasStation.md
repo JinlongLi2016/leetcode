@@ -33,7 +33,7 @@ class Solution:
 
 
 
-* LC 提供了一个更加优雅的解法
+* LC 提供了一个更加优雅的解法.
 
 ```cpp
 class Solution {
@@ -64,4 +64,8 @@ class Solution {
 
 从左往右扫描tank，找到tank搜集为正的初始位置。
 
+如果使用这个算法，能够证明 sum >=0 <=> 能够循环一周？
+
 * https://leetcode.com/problems/gas-station/discuss/42572/Proof-of-%22if-total-gas-is-greater-than-total-cost-there-is-a-solution%22.-C%2B%2B 证明sum > 0与有解等价
+
+  [Proof](https://leetcode.com/problems/gas-station/discuss/42572/Proof-of-"if-total-gas-is-greater-than-total-cost-there-is-a-solution".-C++/358739)
