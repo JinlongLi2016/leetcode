@@ -18,5 +18,3 @@ class Solution:
             return -r if isNeg else r
         else:
             return 0
-
-

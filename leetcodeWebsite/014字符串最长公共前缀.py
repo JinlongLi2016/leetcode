@@ -1,4 +1,6 @@
-# 14 
+# 14
+from functools import reduce
+from typing import List
 def commonPrefix(stra, strb):
     idx = 0
     while len(strb) > idx < len(stra) and stra[idx] == strb[idx]:

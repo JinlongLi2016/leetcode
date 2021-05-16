@@ -1,9 +1,5 @@
 # 006zigzag转换
 
-
-
-
-
 * mine
 
 ```python
@@ -41,6 +37,37 @@ class Solution:
 ```
 
 空间复杂度为`O(n)`，是否可以降低？
+
+* 稍作提高，降低空间复杂度
+
+```python
+from functools import reduce
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        # 边界条件
+        if numRows == 1:
+            return s
+        res  = []
+        for _ in range(numRows):
+            res.append([])
+        
+        i, j = 0, 0
+        idx = 0
+        while idx < len(s):
+            while idx < len(s) and i < numRows:
+                res[i] += s[idx],
+                i += 1
+                idx +=1 
+            i -= 2
+            while idx < len(s) and i >= 1:
+                res[i] += s[idx],
+                i -= 1
+                idx += 1
+        
+        pout = reduce(lambda x, y: x+y, res)
+        return "".join(pout)
+```
+
 
 
 
