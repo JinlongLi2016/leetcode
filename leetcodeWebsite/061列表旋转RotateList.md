@@ -1,3 +1,7 @@
+# 061列表旋转
+
+Given the `head` of a linked list, rotate the list to the right by `k` places.
+
 
 *  My Solution: 7mins, 误了n=0的情况
 
@@ -32,12 +36,6 @@ class Solution:
         
         return head
 ```
-
-
-
-
-
-
 
 
 
