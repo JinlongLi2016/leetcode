@@ -1,5 +1,9 @@
 # 090 子集Ⅱ
 
+Given an integer array `nums` that may contain duplicates, return *all possible subsets (the power set)*.
+
+The solution set **must not** contain duplicate subsets. Return the solution in **any order**.
+
 * My Solution: 回溯法
 
 ```python 
@@ -38,6 +42,8 @@ class Solution(object):
 ```
 
 深度优先搜索，较难理解。它认为dfs(nums)能够生成nums的所有子集
+
+和`LC077组合`有点类似，`dfs(nums[i+1:], path + [nums[i], ret])` 在调用更深函数的时候，都是抛弃了[0, i]之间的元素
 
 * LeetCode Disc: [Simple python solution without extra space.](https://leetcode.com/problems/subsets-ii/discuss/30166/Simple-python-solution-without-extra-space.)
 

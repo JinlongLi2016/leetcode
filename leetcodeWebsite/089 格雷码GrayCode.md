@@ -22,7 +22,7 @@ class Solution:
 
 将n位格雷码的顺序reverse过来，再和原样拼接起来就可以构成一个规模为原样2倍的n+1位格雷码
 
-* LeetCode pdf 提供了一个从自然数i到其格雷码的数学公式，可以很方便的计算。$graycode(n) = n ⊕ (n/2) $
+* LeetCode pdf 提供了一个从自然数`i`到其格雷码的数学公式，可以很方便的计算。$graycode(n) = n ⊕ (n/2)  $
 
 
 
