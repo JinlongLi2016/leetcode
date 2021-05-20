@@ -69,3 +69,5 @@ class Solution {
 * https://leetcode.com/problems/gas-station/discuss/42572/Proof-of-%22if-total-gas-is-greater-than-total-cost-there-is-a-solution%22.-C%2B%2B 证明sum > 0与有解等价
 
   [Proof](https://leetcode.com/problems/gas-station/discuss/42572/Proof-of-"if-total-gas-is-greater-than-total-cost-there-is-a-solution".-C++/358739)
+
+* 另一个牛逼的证明:每个站都会有剩余或者亏空，将剩余标为绿色，亏空标为红色。连续的绿色、红色合并。必有一个红色可以与其紧邻的绿色合并，成为绿色（因为如果不存在这样的红色，那么所有的绿色都小于其紧邻红色，与totalSum > 0冲突）。如此循环，最终整体变为绿色。
