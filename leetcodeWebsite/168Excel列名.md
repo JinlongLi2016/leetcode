@@ -28,3 +28,8 @@ class Solution:
         return ''.join(res[::-1])
 ```
 
+
+
+参考
+
+[re1](https://zhanghuimeng.github.io/post/leetcode-168-excel-sheet-column-title/)
