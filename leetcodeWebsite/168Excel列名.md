@@ -15,7 +15,7 @@ AB -> 28
 ...
 ```
 
-* M1
+* M1：26进制
 
 ```python
 class Solution:
