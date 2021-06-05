@@ -1,4 +1,4 @@
-# 092 Reverse Lined List Ⅱ
+# 092 Reverse Linked List Ⅱ
 
 
 
