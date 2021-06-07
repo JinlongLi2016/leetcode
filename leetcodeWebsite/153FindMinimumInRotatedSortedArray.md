@@ -39,7 +39,7 @@ class Solution:
             mid = (st + end) // 2
             if nums[st] < nums[end]:
                 return nums[st]
-            elif nums[st] == nums[end]:
+            elif nums[st] == nums[end]: # (*) added
                 st += 1
             else:
                 if nums[mid] >nums[end]:
