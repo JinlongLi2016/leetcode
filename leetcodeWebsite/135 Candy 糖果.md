@@ -35,3 +35,19 @@ class Solution:
         return sum(ass)
 ```
 
+* M2
+
+```python
+class Solution:
+    def candy(self, ratings: List[int]) -> int:
+        n = len(ratings)
+        assigns = [1] * n
+        for i in range(1, n): # 从左到右边
+            if ratings[i] > ratings[i-1]:
+                assigns[i] = assigns[i-1] + 1
+        for i in range(n-2, -1, -1): # 从右到左
+            if ratings[i] > ratings[i+1]:
+                assigns[i] = max(assigns[i], assigns[i+1] + 1)
+        return sum(assigns)
+```
+
