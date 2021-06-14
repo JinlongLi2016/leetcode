@@ -8,7 +8,18 @@
     
        (3)将一个字符改为另一个字符(substitute)。
 
-* M1
+* M1: 动态方程
+
+
+$$
+dp[i][j] = min(dp[i - 1][j - 1] , dp[i][j - 1] , dp[i - 1][j] ) + 1, if A[i] != B[j]     
+$$
+
+$$
+dp[i][j] = dp[i - 1][j - 1], if A[i] == B[j]
+$$
+
+
 
 
 ```python
@@ -43,7 +54,7 @@ class Solution:
 
 
 
-
+This [link](https://leetcode.com/problems/edit-distance/discuss/25846/C++-O(n)-space-DP) provides a nice `one-row` dynamic method. And [this](https://leetcode.com/problems/edit-distance/discuss/25846/C++-O(n)-space-DP/24822) demonstrates its running process.
 
 
 

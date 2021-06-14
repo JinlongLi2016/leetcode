@@ -12,7 +12,7 @@ class Solution:
         l, r = 1, x
         while not (l * l <= x and (l+1) * (l+1) > x): # l is not what I want
             m = (l + r) // 2
-            if m * m <= x:
+            if m * m <= x: # m <= x // m
                 l = m
             else:
                 r = m
