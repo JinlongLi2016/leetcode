@@ -1,6 +1,10 @@
 # 092 Reverse Linked List Ⅱ
 
+Given the `head` of a singly linked list and two integers `left` and `right` where `left <= right`, reverse the nodes of the list from position `left` to position `right`, and return *the reversed list*.
 
+---
+
+* Mi
 
 ```python
 class Solution:
@@ -46,3 +50,10 @@ class Solution(object):
         return dummy.next
 ```
 
+
+
+* M2: 寻找p节点的前一个节点，后面的节点以头插法插入(n - m)个，再将后面的节点拼接在最后。
+
+寻找前一个节点，必然要引入一个dummy节点。
+
+还需要注意corner case?
