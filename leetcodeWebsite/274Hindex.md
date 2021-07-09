@@ -6,7 +6,7 @@ According to the [definition of h-index on Wikipedia](https://en.wikipedia.org/w
 
 If there are several possible values for `h`, the maximum one is taken as the `h`**-index**.
 
-* M1
+* M1：先排序，再二分搜索。排序的平均时间复杂度为$O(nlgn)$
 
 ```python
 class Solution:
@@ -26,7 +26,7 @@ class Solution:
         return i +  1
 ```
 
-* LC 使用桶排
+* LC 使用桶排的思想
 
 ```java
 public int hIndex(int[] citations) {

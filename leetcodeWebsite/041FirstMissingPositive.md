@@ -26,7 +26,7 @@ class Solution:
         return len(nums) + 1
 ```
 
-* LeetCode
+* LeetCode： 值`A[i]`与其应该处于的位置`A[i]-1`上的值不等时，应该将`A[i]`归位
 
 ```C++
 class Solution

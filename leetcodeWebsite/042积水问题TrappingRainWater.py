@@ -90,6 +90,9 @@ public int trap(int[] A){
 
 
 # https://leetcode.com/problems/trapping-rain-water/discuss/17364/7-lines-C-C%2B%2B
+# 使用level来记录柱子最左侧、最右侧的高度较小值；lower记录当前处理阶段两侧的较低柱高。
+#   若较低柱高高于之前记录的最左和最后侧形成的level高，则level高度要更新
+#   若低于，则较低柱高与 level之间形成可盛水的空间 (level - lower)
 def trap(height):
     l, r = 0, len(height) - 1
     level, s  = 0, 0
