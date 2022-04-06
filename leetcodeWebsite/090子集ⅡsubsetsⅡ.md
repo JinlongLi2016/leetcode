@@ -47,6 +47,8 @@ class Solution(object):
 
 * LeetCode Disc: [Simple python solution without extra space.](https://leetcode.com/problems/subsets-ii/discuss/30166/Simple-python-solution-without-extra-space.)
 
+  将每个新元素添加到老元素们构成的集合中去
+
 ```python
 class Solution:
     # @param num, a list of integer

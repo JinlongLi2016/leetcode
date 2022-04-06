@@ -1,7 +1,7 @@
 # 057 插入间隔
 
 
-# MySolution: 13mins
+# MySolution: 13mins， 核心思想是插入到该列表中，再采用合并间隔的方案对间隔进行合并
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         idx = 0

@@ -75,6 +75,7 @@ def minWindow(self, s, t):
         missing -= need[c] > 0
         need[c] -= 1
         if not missing: # missing == 0
+            # 缩成一个最小解
             while i < j and need[s[i]] < 0:
                 need[s[i]] += 1
                 i += 1
