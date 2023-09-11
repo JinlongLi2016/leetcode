@@ -19,3 +19,8 @@ def merge(lists):
 	return head.next
 ```
 
+
+
+## Cpp Version
+
+[https://captaincaptain.notion.site/ecacdf9a2c4246cdb82ada3f1a48f5a5](https://onlinegdb.com/Nsi-d42kX)
